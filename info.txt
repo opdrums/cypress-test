@@ -1,0 +1,2 @@
+1:npm install cypress --save-dev (instala npm)
+2:./node_modules/.bin/cypress open !! npx cypress open

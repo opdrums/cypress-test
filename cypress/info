@@ -1,0 +1,8 @@
+1:carpeta con mkdir desde consola
+2: abrir la carpeta con el editor de texto de preferencia
+3:npm install cypress --save-dev (instala npm)
+3:./node_modules/.bin/cypress open !! npx cypress open
+4: add comand to exception (file info)
+5: add librery tab (file info)
+6: rear all comand (file info)
+7: npm install -D cypress-xpath
