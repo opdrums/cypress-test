@@ -8,12 +8,12 @@ describe('run test', () => {
    
     loginNewApp.visitUrl()
 
-    it('open url', () => {
-        loginNewApp.loginPassenger("test", "algo","test@gmail.com", "weroiuwer", "algo de direccion")
+    it('login  user', () => {
+        loginNewApp.loginPassenger( "algo","algo","test@gmail.com", "weroiuwer", "algo de direccion")
     });
-
+  
     it.only('select gender option', () => {
-        select.optList(0, "other", 20)
+        select.optList(0, "others", 3)
     });
 
     it('select hobbies option', () => {

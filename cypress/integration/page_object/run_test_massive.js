@@ -7,7 +7,7 @@ describe('massive_test', () => {
     it('test', () => {
         cy.fixture("example").then(elmData => {
             elmData.forEach(data =>{
-                loginNewApp.visitUrl()
+                loginNewApp.visitUrlTwo()
                 const firts_name = data.strinFirtsName
                 const second_name= data.strinSeconName
                 const phone_user = data.strinPhone
@@ -17,5 +17,4 @@ describe('massive_test', () => {
             })
         })
     });
-    
 });

@@ -1,12 +1,6 @@
 
 
 describe('asdasda', () => {
-    beforeEach(() => {
-        it('visit url', () => {
-            cy.visit("https://demoqa.com/automation-practice-form")
-        });
-    })
-
             it('visit url', () => {
                 cy.visit("https://demoqa.com/automation-practice-form")
             });
