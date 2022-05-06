@@ -1,5 +1,16 @@
-{
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
-}
+[
+  {
+    "strinFirtsName": "Using fixtures to represent data",
+    "strinSeconName": "hello@cypress.io",
+    "strinPhone": "Fixtures are a great way to mock data for responses to routes",
+    "strinAddress": "jakshdlkasjd",
+    "strinEmail": "jlhdhdffg@gmail.com"
+  },
+  {
+    "strinFirtsName": "frailejon",
+    "strinSeconName": "hello",
+    "strinPhone": "Fixtures adasd",
+    "strinAddress": "no mames",
+    "strinEmail": "example@gmail.com"
+  }
+]

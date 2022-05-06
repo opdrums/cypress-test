@@ -8,19 +8,19 @@ describe('run test', () => {
    
     loginNewApp.visitUrl()
 
-    it.only('open url', () => {
+    it('open url', () => {
         loginNewApp.loginPassenger("test", "algo","test@gmail.com", "weroiuwer", "algo de direccion")
     });
 
-    it('select gender option', () => {
-        select.list(0, "other", 4)
+    it.only('select gender option', () => {
+        select.optList(0, "other", 20)
     });
 
     it('select hobbies option', () => {
-        select.list(1, "Sports", 4)
-    });
+        select.optList(1, "Sports", 4)
+    }); 
     
-    it.only('upload file', () => {
+    it('upload file', () => {
        loginNewApp.downloadFile() 
     });
 });

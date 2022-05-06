@@ -6,3 +6,4 @@
 5: add librery tab (file info)
 6: rear all comand (file info)
 7: npm install -D cypress-xpath
+8:cypress run --spec path/to/file.spec.js

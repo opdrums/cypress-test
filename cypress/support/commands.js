@@ -31,3 +31,21 @@ Cypress.Commands.add("text_visible",(selector, text)=>{
 Cypress.Commands.add("click_button",(selector) =>{
     cy.get(selector).should('be.enabled').click()
 })
+
+Cypress.Commands.add("clear_field", (selector) =>{
+    cy.get(selector).should('be.enabled').clear()
+})
+
+Cypress.Commands.add("elemen_list", (selector, name, number) =>{
+    cy.get(selector).find('div').each(($elm, index) =>{
+        if($elm.text().toUpperCase() == name.toUpperCase()){
+            cy.get(selector).contains($elm.text()).click()
+            return false
+        }else if(index == number){
+            cy.get(selector).find('div').eq(index).click()
+            return false
+        }else{
+            cy.log("Not found")
+        }
+    })
+})
